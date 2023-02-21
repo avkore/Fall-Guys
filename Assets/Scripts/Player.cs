@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float jumpHeight;
     [SerializeField] private Gamemanager gameManager;
+    [SerializeField] private ParticleSystem footsteps;
     
 
     private Vector3 moveDirection;
